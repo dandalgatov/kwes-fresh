@@ -18,7 +18,10 @@ export default function Home() {
 
       <form className="kwes-form" action="https://kwes.io/api/foreign/forms/mJHsXOYLXjmWLpxzOoR6">
       <label htmlFor="name">Your Name</label>
-      <input type="text" name="name" rules="required|max:255"/>
+        <input type="text" name="name" rules="required|max:255" />
+        
+        <label htmlFor="number">Your number</label>
+      <input type="number" name="number" rules="required|max:255"/>
 
       <button type="submit">Submit</button>
   </form> 
